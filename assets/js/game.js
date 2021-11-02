@@ -57,8 +57,8 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
       else {
           fight();
       }
-    window.alert(playerName + " has chosen to skip the fight!");
-  } else {
+     // if player did not choose 1 or 2 in prompt
+    } else {
     window.alert("You need to choose a valid option. Try again!");
   }
 
